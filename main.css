@@ -1,3 +1,36 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #414141;
+}
+
+.header, .footer {
+  background-color: #CCDFC8;
+  padding: 1rem 2rem;
+}
+
+.content {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  color: #FF6A5C;
+}
+
+a , a:visited {
+  color: #056571;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF6A5C;
+  text-decoration: none;
+}
+
+@media(max-width: 600px) {
+  .header, .content {
+    padding: 0.25rem 1rem;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
 }
